@@ -1,0 +1,18 @@
+c:\users\ivy\documents\visual studio 2010\Projects\Restaurant\Restaurant\bin\Restaurant.dll
+c:\users\ivy\documents\visual studio 2010\Projects\Restaurant\Restaurant\bin\Restaurant.pdb
+c:\users\ivy\documents\visual studio 2010\Projects\Restaurant\Restaurant\bin\EntityFramework.dll
+c:\users\ivy\documents\visual studio 2010\Projects\Restaurant\Restaurant\bin\EntityFramework.xml
+c:\users\ivy\documents\visual studio 2010\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.dll
+c:\users\ivy\documents\visual studio 2010\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+C:\Users\Ivy\Documents\Visual Studio 2010\Projects\Restaurant\Restaurant\bin\JTableMvcDemos.pdb
+C:\Users\Ivy\Documents\Visual Studio 2010\Projects\Restaurant\Restaurant\bin\jTableSampleDatabaseLayer.pdb
+C:\Users\Ivy\Documents\Visual Studio 2010\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.csprojResolveAssemblyReference.cache
+I:\Web Develop\Projects\Restaurant\Restaurant\bin\Restaurant.dll
+I:\Web Develop\Projects\Restaurant\Restaurant\bin\Restaurant.pdb
+I:\Web Develop\Projects\Restaurant\Restaurant\bin\EntityFramework.dll
+I:\Web Develop\Projects\Restaurant\Restaurant\bin\EntityFramework.xml
+I:\Web Develop\Projects\Restaurant\Restaurant\bin\JTableMvcDemos.pdb
+I:\Web Develop\Projects\Restaurant\Restaurant\bin\jTableSampleDatabaseLayer.pdb
+I:\Web Develop\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.csprojResolveAssemblyReference.cache
+I:\Web Develop\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.dll
+I:\Web Develop\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.pdb

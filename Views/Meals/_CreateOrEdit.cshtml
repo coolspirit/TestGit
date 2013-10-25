@@ -1,0 +1,34 @@
+@model Restaurant.Models.Meal
+
+@* This partial view defines form fields that will appear when creating and editing entities *@
+
+<div class="editor-label">
+    @Html.LabelFor(model => model.Name)
+</div>
+<div class="editor-field">
+    @Html.EditorFor(model => model.Name)
+    @Html.ValidationMessageFor(model => model.Name)
+</div>
+
+<div class="editor-label">
+    Food
+</div>
+<div class="editor-field">
+    @Html.DropDownListFor(model => model.FoodId, ((IEnumerable<Restaurant.Models.Food>)ViewBag.PossibleFoods).Select(option => new SelectListItem {
+        Text = (option == null ? "None" : option.Name), 
+        Value = option.FoodId.ToString(),
+        Selected = (Model != null) && (option.FoodId == Model.FoodId)
+    }), "Choose...")
+    @Html.ValidationMessageFor(model => model.FoodId)
+</div>
+<div class="editor-label">
+    Drink
+</div>
+<div class="editor-field">
+    @Html.DropDownListFor(model => model.DrinkId, ((IEnumerable<Restaurant.Models.Drink>)ViewBag.PossibleDrinks).Select(option => new SelectListItem {
+        Text = (option == null ? "None" : option.Name), 
+        Value = option.DrinkId.ToString(),
+        Selected = (Model != null) && (option.DrinkId == Model.DrinkId)
+    }), "Choose...")
+    @Html.ValidationMessageFor(model => model.DrinkId)
+</div>

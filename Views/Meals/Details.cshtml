@@ -1,0 +1,26 @@
+@model Restaurant.Models.Meal
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Meal</legend>
+
+    <div class="display-label">Name</div>
+    <div class="display-field">@Model.Name</div>
+
+    <div class="display-label">Food</div>
+    <div class="display-field">@(Model.Food == null ? "None" : Model.Food.Name)</div>
+
+    <div class="display-label">Drink</div>
+    <div class="display-field">@(Model.Drink == null ? "None" : Model.Drink.Name)</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.MealId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+
